@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+; Abrir archivos
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code]
+@="Editar en Visual Studio Code"
+"Icon"="\"C:\\Users\\mateo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command]
+@="\"C:\\Users\\mateo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"
+
+; carpeta
+[HKEY_CLASSES_ROOT\Directory\shell\vscode]
+@="Abrir carpeta como proyecto de Visual Studio Code"
+"Icon"="\"C:\\Users\\mateo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"
+[HKEY_CLASSES_ROOT\Directory\shell\vscode\command]
+@="\"C:\\Users\\mateo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"
+
+; Dentro de una carpeta
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode]
+@="Abrir como proyecto de Visual Studio Code"
+"Icon"="\"C:\\Users\\mateo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode\command]
+@="\"C:\\Users\\mateo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"
